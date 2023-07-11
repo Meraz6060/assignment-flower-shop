@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+}
+/* header section  css  */
+header{
+    width: 100%;
+    height: 100vh;
+    background-color: blueviolet;
+    padding-bottom: 5px;
+
+}
+.navbar{
+    margin: 0% 8% 0%;
+    display: flex;
+    justify-content: space-between;
+}
+.navimg{
+    width: auto;
+    display: inline;
+    padding-top: 60px;
+}
+.img10{
+    width: 450px;
+
+}
+.text1{
+    margin-top: 100px;
+    width: 600px;
+    height: 506;
+    padding: 30px;
+}
+.text1 h1{
+    font-size: 55px;
+    padding-bottom: 20px;
+}
+.text1 p{
+    font-size: 15px;
+}
+.btn1{
+    margin-top: 20px;
+    color: white;
+    background-color: brown;
+    width: 152px;
+    height: 52px;
+    font-size: 20px;
+    border-radius: 15px;
+    border: 0;
+    box-shadow: 2px 3px 2px black;
+}
+/* section1  css  */
+.section1{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    margin-bottom: -50px;
+}
+.sec1-div{
+    width: 80%;  
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} 
+.text2{
+    padding-top: 70px;
+}
+.text2 h1{
+    font-size: 40px;
+}
+.text2 p{
+    text-align: center;
+    width: 400px;
+    margin-left: 320px;
+    padding: 20px 0px 40px;
+}
+.img6{
+    width: 200px;
+    height: 250px;
+    margin-top: 100px;
+}
+.threeimg{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.img1{
+    background-color:#e978cd;
+    width: 320px;
+    height: 350px;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+}
+.img2{
+    background-color:#dcdfe9;
+    width: 320px;
+    height: 350px;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+}
+.img3{
+    background-color:#e6dae3;
+    width: 320px;
+    height: 350px;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+}
+.imgtitle{
+    font-size: 20px;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+
+/*  section -2  css  */
+.section2{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(240, 236, 236);
+    margin-top: 100px;
+    padding-top: 90px;
+}
+
+.navsec2{
+display: flex;
+
+}
+.sec2text{
+    width: 700px;
+    padding-left: 200px;
+    margin: auto;
+}
+.sec2text h1{
+    font-size: 30px;
+    padding: 15px;
+}
+.sec2text p{
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+}
+.btn2{
+    margin: 20px 200px ;
+    color: white;
+    background-color: brown;
+    width: 140px;
+    height: 45px;
+    font-size: 20px;
+    border-radius: 15px;
+    box-shadow: 4px 5px 4px black;
+    border: 0;
+}
+.navimg{
+   
+}
+.nv-img{
+    width: 200px;
+    margin: 50px;
+    padding-right: 250px;
+}
+/* Section -3 Css  */
+.section3{
+    width: 100%;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    
+
+}
+.instagram-section{
+    width: 80%;
+    
+    
+}
+.instragram{
+    width: 700px;
+    margin: auto;
+    text-align: center;   
+}
+.instragram h2{
+    font-size: 40px;
+    padding: 20px;
+}
+.instragram p{
+    color: gray;
+    font-size: 15px;
+    text-align: center;
+    padding: 0px 70px;
+    margin-bottom: 30px;
+}
+.insta-pic{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    padding: 20px 0px 50px;
+}
+.insimg{
+    width: 250px;
+    border-radius: 5px;
+}
+.getdeals{
+    background-image: url("./Asset/Rectangle 9.png");
+    background-color: #cccccc;
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+input{
+    height: 45px;
+    width: 450px;
+    margin-top: 30px;
+    outline: none;
+    color: #221818;
+    background: #faf9f9;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 17px;
+    border: 2px solid #fff6f6;
+}
+.get-title h1{
+    font-size: 30px;
+}
+
+.inputbtn{
+    margin-left: 20px;
+    color: white;
+    background-color: brown;
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 0;
+}
+/* Footer section CSSS */
+footer{
+    width: 100%;
+    height:50vh;
+    background: #111;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .foot-content{
+    
+    color: white;
+    width: 80%;
+    /* height: 200px; */
+    align-items: center;
+    padding: 20px;
+  }
+  .foot-content h1{
+        font-size: 40px;
+        padding: 20px;
+  }
+  .foot-content p{
+    font-size: 12px;
+    padding: 10px;
+}
